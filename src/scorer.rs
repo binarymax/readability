@@ -1,4 +1,4 @@
-use dom;
+use crate::dom;
 use html5ever::tree_builder::TreeSink;
 use html5ever::tree_builder::{ElementFlags, NodeOrText};
 use html5ever::{LocalName, QualName};

@@ -5,8 +5,6 @@ extern crate regex;
 extern crate url;
 #[macro_use]
 extern crate lazy_static;
-#[cfg(feature = "reqwest")]
-extern crate reqwest;
 
 pub mod dom;
 pub mod error;
